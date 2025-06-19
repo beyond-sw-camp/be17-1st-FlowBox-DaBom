@@ -1,292 +1,240 @@
-# be17-1st-FlowBox-DaBom
-<h1 align="center" >DaBom  </h1>
-
 <div align="center">
-  <img src="image/readme/Dabom.png"  style="zoom:20%;" align="center"/>
+
+# 🎬 DaBom
+
+### 영상 스트리밍을 중심으로 한 멀티 플랫폼 커뮤니케이션 서비스
+
+<img src="image/readme/Dabom.png" alt="DaBom Logo" width="300"/>
+
+---
+
+## 🌌 Team FlowBox
+
+![TeamFlowBox](https://img.shields.io/badge/Team-FlowBox-blueviolet?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEyIDJMMTMuMDkgOC4yNkwyMCA5TDEzLjA5IDE1Ljc0TDEyIDIyTDEwLjkxIDE1Ljc0TDQgOUwxMC45MSA4LjI2TDEyIDJaIiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4K)
+
 </div>
 
-<br>
-<br>
+## 👥 팀원 소개
 
-<h1 align="center" >🌌 팀 FlowBox ▶️ </h1>
+<table align="center">
+<tr>
+<td align="center"><strong>🧑‍💻 강병욱</strong></td>
+<td align="center"><strong>🧑‍💻 김륜환</strong></td>
+<td align="center"><strong>🧑‍💻 김성인</strong></td>
+<td align="center"><strong>🧑‍💻 양형모</strong></td>
+<td align="center"><strong>🧑‍💻 최민성</strong></td>
+</tr>
+</table>
 
+---
 
-<br>
+## 📋 목차
 
-## 👨‍👩‍👧‍👦 팀원
+- [프로젝트 개요](#-프로젝트-개요)
+- [주요 기능](#-주요-기능)
+- [기술 스택](#️-기술-스택)
+- [시스템 아키텍처](#-시스템-아키텍처)
+- [데이터베이스 설계](#-데이터베이스-설계)
+- [성능 최적화](#-성능-최적화)
+- [문서](#-문서)
 
-🧑‍💻 **강병욱**
+---
 
-🧑‍💻 **김륜환**
+## 🎯 프로젝트 개요
 
-🧑‍💻 **김성인**
+> **SNS와 영상 스트리밍 서비스가 합쳐진 새로운 패러다임의 서비스**
 
-🧑‍💻 **양형모**
+DaBom은 기존 영상 플랫폼의 한계를 극복하고 창작자와 시청자 간의 소통을 강화하는 혁신적인 플랫폼입니다.
 
-🧑‍💻 **최민성**
+### ✨ 핵심 가치
 
-<br>
+- **🌟 별점 기반 평가 시스템**: 기존의 단순한 '좋아요/싫어요'를 넘어선 세분화된 평가
+- **💬 통합 커뮤니케이션**: 창작자와 구독자 간의 직접적인 소통 채널 제공
+- **🤝 실시간 상호작용**: Together 기능을 통한 동시 시청 및 채팅
 
-# 📌 프로젝트 목표
+---
 
-<br>
+## 🚀 주요 기능
 
-**SNS와 영상 스트리밍 서비스가 합쳐진 새로운 패러다임의 서비스**
+<div align="center">
 
-<br>
+| 기능 | 설명 | 상태 |
+|:---:|:---|:---:|
+| **별점 평가** | 1~5점 세분화된 영상 평가 시스템 | ✅ |
+| **DM 시스템** | 창작자-구독자 간 직접 소통 | ✅ |
+| **Together 모드** | 실시간 동시 시청 기능 | ✅ |
+| **플레이리스트** | 개인화된 영상 컬렉션 | ✅ |
+| **실시간 스트리밍** | 라이브 방송 및 채팅 | 🔄 |
 
-# 🔧 기술 스택
-운영 환경  
-![](https://img.shields.io/badge/VMware-607078?logo=vmware&logoColor=white&style=for-the-badge)<img src="https://img.shields.io/badge/linux-%23FCC624.svg?&style=for-the-badge&logo=linux&logoColor=black" />
+</div>
 
-DB  
+---
+
+## 🛠️ 기술 스택
+
+<div align="center">
+
+### 🖥️ 운영 환경
+![VMware](https://img.shields.io/badge/VMware-607078?style=for-the-badge&logo=vmware&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+
+### 🗄️ 데이터베이스
 ![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white)
 
-모니터링  
-![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=Prometheus&logoColor=white) ![Grafana](https://img.shields.io/badge/grafana-%23F46800.svg?style=for-the-badge&logo=grafana&logoColor=white)
+### 📊 모니터링
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=Prometheus&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
 
-협업 툴  
-![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
+### 🤝 협업 도구
+![Git](https://img.shields.io/badge/Git-F05033?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-121011?style=for-the-badge&logo=github&logoColor=white)
 
-
-
-<br>
-
-# 📮 프로젝트 기획안
-
-## 📣 소 개
-
-<b>영상 스트리밍을 중심으로 한 멀티 플랫폼 커뮤니케이션 서비스입니다.<br>
-이를 통해 다봄은 기존 영상 스트리밍 서비스를 제공할 뿐만 아니라 영상에 대한 점수제와 채널 소유자와 소통이 하나로 통합된 사용자 경험을 제공하며, 기존 영상 플랫폼을 보완하는 대안을 제시합니다.
-</b>
-
-## 🖼️  배 경
-<details> <summary> <b> 배경 설명 </b> </summary>
-  <br>
-
->기존 영상 플랫폼은 ‘좋아요/싫어요’ 중심 평가로, 콘텐츠에 대한 정교한 피드백을 제공하기 어렵습니다.
-
->이에 1~5점의 별점 평가와 세부 항목 피드백 기능을 도입하여, 창작자와 시청자 모두에게 구체적인 정보를 제공하기 위해 시작되었습니다.
-
-기존의 단순한 '좋아요/싫어요' 반응 방식에서 벗어나, 별점 기반의 정량적 평가 시스템을 도입하여 영상 콘텐츠에 대해 보다 세분화된 피드백을 제공합니다.
-
-또한, 사용자는 시청 중심의 수동적인 콘텐츠 소비를 넘어, 창작자 및 다른 시청자들과의 실시간 상호작용(댓글, 대댓글, 채팅, 쪽지 등)을 경험할 수 있습니다.
-
-사용자는 채널 개설, 영상 업로드, 실시간 스트리밍, 플레이리스트 구성, 평가 참여 등 다양한 방식으로 플랫폼에 참여할 수 있으며, 사용자의 개인 점수 및 프로필에 반영되어 지속적인 피드백 순환 구조 제공합니다.
-
-**2-1 별점 기반 평가 시스템 도입**
-
-> 최근에는 ‘썸네일 어그로’와 같이 콘텐츠 본질보다 클릭을 유도하는 요소가 과도하게 강조되는 사회적 문제가 발생하고 있습니다. 별점 시스템은 이러한 문제를 보완하고, 사용자가 영상의 실제 품질을 시각적으로 판단할 수 있는 기반을 제공합니다.
-
-특히 이 시스템은 직관적인 사용자 경험을 제공한다는 점에서 강점이 있으며, 소비자는 영상의 정보성, 재미, 편집력 등 다양한 평가 항목을 바탕으로 더 나은 의사결정을 할 수 있습니다. 이는  콘텐츠 품질 향상과 플랫폼 신뢰도 제고로 이어질 수 있습니다.
-
-**2-2 통합 커뮤니케이션 기능**
-
-> 구독자와 창작자 간의 DM(쪽지) 기능을 제공하여, 별도의 SNS 없이도 직접적인 피드백과 소통이 가능합니다.
-
-타 사이트는 댓글 외에는 크리에이터와 구독자 간에 1:1로 소통할 수 있는 수단이 존재하지 않아, 팬들과의 개인적인 교류나 피드백 전달이 어려운 구조입니다. 반면, SNS 플랫폼 같은 플랫폼은 DM(Direct Message) 기능을 통해 사용자 간의 자유로운 소통이 가능하며, 이를 통해 커뮤니티가 자연스럽게 강화되고 있습니다.
-
-따라서 다봄은 쪽지(DM) 기능을 도입하여, Q&A, 피드백, 소통 요청, 팬 레터 등 다양한 목적으로 활용될 수 있어 사용자 경험을 크게 향상시킬 것으로 예상됩니다. 특히 구독자와 크리에이터 간의 관계를 보다 밀접하게 만들어 플랫폼 충성도를 높이는 데에도 긍정적인 역할을 할 것으로 기대됩니다.
-
-</details>
-
-## 📓  시나리오
-
-<details> <summary> <b> 시나리오 펼쳐보기 </b> </summary>
-
-## 사용자 <br>
-> ##### 1-1. 회원가입
->- 유저는 회원가입을 할 수 있다.
->- 유저는 회원가입시 이메일 인증을 해야 한다.
-
-> ##### 1-2. 로그인 및 계정 관리
->- 유저가 로그인을 할 수 있다.
->- 유저가 비밀번호를 수정할 수 있다.
->- 유저가 사용자 이름을 수정할 수 있다.
-
-> ##### 1-3. 검색 기능
-> - 유저는 영상 제목으로 영상을 검색할 수 있다.
-> - 유저는 채널 제목으로 채널을 검색할 수 있다.
-> - 유저는 태그로 영상을 검색할 수 있다.
-> - 유저는 카테고리로 영상을 검색할 수 있다.
-> - 유저는 플레이 리스트 이름으로 플레이 리스트를 검색할 수 있다. 
-
-## 채널 <br>
->##### 2-1. 채널 정보 관리
->- 유저가 채널 상태를 수정할 수 있다.
->- 유저가 채널 이름을 수정할 수 있다.
->- 유저가 채널 카테고리를 수정할 수 있다.
->- 유저가 채널 상세 설명서를 수정할 수 있다.
-
-> ##### 2-2. 채널 구독 및 통계
->- 유저가 채널을 구독할 수 있다.
->- 유저가 구독한 채널을 확인하거나 구독을 취소할 수 있다.
->- 유저가 채널의 구독자 수를 확인할 수 있다.
->- 유저가 자신의 채널 구독자 수를 확인할 수 있다.
->- 유저가 채널을 구독자 수 순, 별점 순으로 검색할 수 있다.
->- 유저가 구독자 및 별점을 기준으로 세분화 검색할 수 있다.
-
-> ##### 2-3. 채널 게시글
-> - 유저가 채널에 게시글을 작성, 수정, 삭제할 수 있다.
-> - 유저가 채널 게시글에 좋아요를 누를 수 있다.
-> - 유저가 게시글에 댓글 및 대댓글을 작성할 수 있다.
-> - 댓글/대댓글 수정 및 삭제, 좋아요 기능을 사용할 수 있다.
-
-## 영상 <br>
-
-> ##### 3-1. 영상 업로드 및 수정
->- 유저가 영상을 업로드 할 수 있다.
->- 영상에 태그를 선택하고 시청 연령을 설정할 수 있다.
->- 영상에 대한 추가 설명을 첨부할 수 있다.
->- 유저가 업로드한 영상을 수정하거나 삭제할 수 있다.
->- 영상 수정 항목: 공개범위, 카테고리, 상태, 설명, 추가 링크 등
-
->##### 3-2. 영상 스트리밍 및 상호작용
->- 유저가 영상을 시청할 수 있다.
->- 영상에 좋아요/싫어요를 누를 수 있다.
->- 영상을 공유할 수 있다.
->- 영상을 시청하면서 채널을 구독할 수 있다.
->- 영상을 플레이리스트에 추가할 수 있다.
->- 영상 시청 완료 시 다음 영상 추천을 받을 수 있다.
->- 영상 시청 중 추천 영상의 썸네일을 볼 수 있다.
-
->##### 3-3. 영상 평가 및 통계
->- 유저가 영상에 별점을 매길 수 있다.
->- 유저가 매긴 별점을 수정할 수 있다.
->- 영상 별점과 별점을 준 유저 수를 확인할 수 있다.
->- 유저가 시청한 영상의 별점을 확인할 수 있다.
->- 채널은 자신의 영상의 조회수 통계를 확인할 수 있다.
->- 유저는 영상의 좋아요, 별점, 조회수 통계를 사전에 확인할 수 있다.
-
->##### 3-4. 영상 댓글 기능
->- 유저가 영상에 댓글/대댓글을 남길 수 있다.
->- 댓글에 좋아요/싫어요를 누를 수 있다.
->- 대댓글 작성 시 다른 유저를 태그할 수 있다.
-
-## 4. 플레이리스트 <br>
-
->##### 4-1. 플레이리스트 기능
-> - 유저가 채널 영상들을 모아 플레이리스트를 작성할 수 있다.
-> - 플레이리스트의 공개/비공개 여부를 설정할 수 있다.
-> - 유저는 다른 유저가 공개한 플레이리스트를 확인하고 시청할 수 있다.
-
-## 5. 쪽지 <br>
-
->##### 5-1. 쪽지 기능
-> - 유저가 채널에게 쪽지를 보낼 수 있다.
-        - 한 채널에 하루 최대 5회 등 제한 사항 존재한다.
-> - 채널은 사용자의 DM을 차단할 수 있다.
-> - 채널은 수신된 쪽지의 요약본(욕설 필터링 포함)을 먼저 확인할 수 있다.
-> - 유저는 채널이 쪽지를 읽었는지 여부를 확인할 수 있다.
-
-## 6. Together 기능 <br>
-
->##### 6-1. 신고 기능
-> - 유저가 자신의 직접 Together 방을 신설할 수 있다.
-> - 유저는 자신이 만든 Together 방으로 초대 코드를 만들어서 다른 유저를 초대할 수 있다.
-> - 유저는 다른 유저가 만든 Together 방을 초대 코드를 이용해서 참여할 수 있다.
-> - 유저들은 Togehter방에서 실시간 채팅에 참여할 수 있다.
-> - Togther의 Host 유저는 Together 방에서 영상을 재생 시킬 수 있다.
-> - Togther의 Host 유저는 Together 방에서 영상을 일시 정지 시킬 수 있다.
-> - Togther의 Host 유저는 Together 방에서 영상을 종료 시킬 수 있다.
-> - Togther의 Host 유저는 Together 방의 이름을 수정할 수 있다.
-
-## 7. 신고 기능 <br>
-
->##### 7-1. 신고 기능
-> - 유저가 영상을 신고할 수 있다.
-    - 유저는 자신이 신고한 영상을 볼 수 없다
-> - 유저가 댓글을 신고할 수 있다.
-        - 유저는 자신이 신고한 댓글을 볼 수 없다.
-> - 유저가 유저를 신고할 수 있다.
-        - 유저는 자신이 신고한 유저를 검색할 수 없다.
-</details>
-
-
-<br>
-
-## 📃 요구사항 정의서
-### 📑 <a href = "./doc/Dabom_요구사항_정의서.pdf"> 요구사항 정의서  </a>
-<br>
-
-## 📈 ERD
-
-<div align="center">
-  <img src="image/readme/ERD_version_1.png"  style="zoom:70%;" align="center"/>
 </div>
+
+---
+
+## 📚 프로젝트 배경
+
+<details>
+<summary><strong>📖 프로젝트 기획 배경</strong></summary>
+
+### 🎯 문제 인식
+
+> 기존 영상 플랫폼의 '좋아요/싫어요' 중심 평가 시스템으로는 콘텐츠에 대한 정교한 피드백을 제공하기 어렵습니다.
+
+### 💡 해결 방안
+
+**1️⃣ 별점 기반 평가 시스템**
+- 1~5점의 세분화된 평가 시스템 도입
+- '썸네일 어그로' 등의 문제 해결
+- 콘텐츠 품질 향상 및 플랫폼 신뢰도 제고
+
+**2️⃣ 통합 커뮤니케이션**
+- 창작자-구독자 간 DM(쪽지) 기능
+- Q&A, 피드백, 팬레터 등 다양한 활용
+- 플랫폼 충성도 향상
+
+</details>
+
+<details>
+<summary><strong>🔍 상세 시나리오</strong></summary>
+
+### 👤 사용자 기능
+
+#### 1️⃣ 계정 관리
+- ✅ 회원가입 및 이메일 인증
+- ✅ 로그인 및 프로필 관리
+- ✅ 통합 검색 기능 (영상, 채널, 태그, 플레이리스트)
+
+#### 2️⃣ 채널 관리
+- ✅ 채널 정보 관리 및 구독 시스템
+- ✅ 게시글 작성 및 댓글/대댓글 기능
+- ✅ 구독자 통계 및 세분화 검색
+
+#### 3️⃣ 영상 기능
+- ✅ 영상 업로드 및 스트리밍
+- ✅ 별점 평가 및 통계 확인
+- ✅ 댓글 시스템 및 플레이리스트 관리
+
+#### 4️⃣ 소셜 기능
+- ✅ DM(쪽지) 시스템 (일일 제한 및 필터링)
+- ✅ Together 기능 (실시간 동시 시청)
+- ✅ 신고 시스템
+
+</details>
+
+---
 
 ## 💻 시스템 아키텍처
+
 <div align="center">
-  <img src="image/readme/systemArchitecture.png"  style="zoom:70%;" align="center"/>
+<img src="image/readme/systemArchitecture.png" alt="System Architecture" width="80%"/>
 </div>
 
-<br>
+---
 
+## 🗃️ 데이터베이스 설계
 
-## 🗄️ DDL
-
-#### 📁<a href = "./db/DDL.sql"> DDL.sql   </a>
-
-
-## 💡 성능 개선
-
-<details> <summary><b>성능 개선 사례<b> </summary> <br>
-
-<details><summary><b>INDEX 적용 사례<b> </summary>
-
-### INDEX 적용 이유
-
-> 채널 이름으로 검색하는 상황이 많음 <br>
-> mariaDB에서 varchar인 경우 "like '%test' 연산이 아닌 경우 B+tree로 탐색하는 것을 확인<br>
-> Index가 없을 때, 매번 모든 노드를 탐색하고 있다는 것을 확인<br>
-> 채널 이름에 Index를 걸어서 성능 향상을 기대함.
-
-> Index 적용 전 쿼리문 실행시 실행시간 0.157 sec
-<br>
-<div >
-  <img src="image/readme/name_index_전.png"  style="zoom:76%;" />
+<div align="center">
+<img src="image/readme/ERD_version_1.png" alt="ERD Diagram" width="80%"/>
 </div>
 
-> Index 적용 전 컴퓨터 부하 테스트
+### 📋 DDL 스크립트
+📁 **[DDL.sql](./db/DDL.sql)** - 데이터베이스 스키마 정의
 
-<div >
-  <img src="./image/readme/notIndex.png"  style="zoom:76%;" />
-</div> 
+---
 
-> index 적용 후 컴퓨터 부하 테스트
+## 📈 성능 최적화
 
-<div >
-  <img src="./image/readme/notIndex.png"  style="zoom:76%;" />
+<details>
+<summary><strong>⚡ 성능 개선 사례</strong></summary>
+
+### 🔍 INDEX 최적화
+
+**적용 배경**
+- 채널 이름 검색 빈도가 높음
+- MariaDB varchar 컬럼의 B+tree 탐색 최적화 필요
+
+**성과**
+Before: 0.157 sec → After: 0.063 sec
+⚡ 약 60% 성능 향상 (0.094초 단축)
+
+<div align="center">
+<img src="image/readme/name_index_전.png" alt="Before Index" width="45%"/>
+<img src="image/readme/name_index_후.png" alt="After Index" width="45%"/>
 </div>
 
-> Index 적용 후 일반 쿼리문 실행시 실행시간 0.063 sec
-<div >
-  <img src="./image/readme/name_index_후.png"  style="zoom:76%;" />
+**성과** Before: CPU 70% 부하 → After: CPU 12% 부하
+⚡ 약 80% 성능 향상
+<div align="center">
+<img src="image/readme/notIndex.png" alt="Before Index" width="45%"/>
+<img src="image/readme/afterIndex.png" alt="After Index" width="45%"/>
 </div>
-<br>
-> 결과: 실행시간 약 0.1초 단축
-<br>
+
+### 🔍 PAGING 최적화
+
+**적용 배경**
+- 채널 이름 검색 빈도가 높음
+- MariaDB varchar 컬럼의 INDEX인 경우 %%조회 시 사용 불가
+- 따라서 PAGING을 통한 성능 개선 필요
+
+<div align="center">
+<img src="image/readme/Index_걸기_전.png" alt="BeforeIndex" width="45%"/>
+<img src="image/readme/Index_추가_후.png" alt="AfterIndex" width="45%"/>
+</div>
+
+- 위 사진처럼 row 탐색 수도 차이가 없고, 시간도 차이가 없음.
+
+<div align="center">
+<img src="image/readme/CPU_Index_부하_전.png" alt="BeforeIndex" width="45%"/>
+<img src="image/readme/CPU_Index_부하_후.png" alt="AfterIndex" width="45%"/>
+</div>
+
+- 따라서 PAGING을 통해서 성능 개선을 해야 한다.
+
+### 🗑️ SOFT DELETE 구현
+
+**적용 배경**
+- 다중 테이블 JOIN으로 인한 DELETE 연산 지연
+- 실시간 서비스에서의 응답성 개선 필요
+
+**성과**
+Before: 0.062 sec → After: 0.016 sec
+⚡ 약 74% 성능 향상 (0.046초 단축)
+
+<div align="center">
+<img src="image/readme/softDelete.png" alt="Soft Delete Performance" width="60%"/>
+</div>
 
 </details>
-<br>
-<details><summary><b>SOFT DELETE 적용 사례<b> </summary> <br>
 
-### SOFT DELETE 적용 이유
+---
 
-> 테이블끼리 JOIN이 너무 많이 되어 DELETE시 실행 시간이 오래 걸린다는 것을 확인 <br>
-> 실제 실행시 SELECT 문과 비슷하게 성능이 나오는 것을 확인<br>
-> 따라서 SOFT DELETE를 통해 일시적으로 검색이 안 나오게 끔 진행<br>
-> 그 후, 사람들이 이용시간이 적은 시간에 한번에 삭제를 진행
+## 📄 문서
 
-<div>
-  <img src="image/readme/softDelete.png"  style="zoom:76%;" />
-</div>
+### 📑 프로젝트 문서
+- **[요구사항 정의서](./doc/Dabom_요구사항_정의서.pdf)** - 상세 기능 명세
 
-> SOFT DELETE 적용하기 전 일반쿼리문 실행시 실행시간 0.062 sec
+---
 
-> SOFT DELETE 적용한 후 일반쿼리문 실행시 실행시간 0.016 sec
-
-> 결과: 실행시간 약 0.06초 단축
-
-</details>
-</details>
+### 🎉 Thank you for visiting DaBom!
